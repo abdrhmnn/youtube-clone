@@ -1,1 +1,0 @@
-export const logo = 'https://i.ibb.co/YNQcXJ2/1520816765843.jpg';
