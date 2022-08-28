@@ -9,6 +9,7 @@ const Feed = () => {
   const [videos, setVideos] = useState(null);
 
   useEffect(() => {
+    document.title = "Youtube Clone"
     setVideos(null);
 
     fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)

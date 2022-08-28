@@ -12,7 +12,7 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-export const logo = 'https://i.ibb.co/YNQcXJ2/1520816765843.jpg';
+export const logo = 'https://i.ibb.co/RPXHmG2/yt-clone-logo.png';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png';
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },

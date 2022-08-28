@@ -12,6 +12,7 @@ const ChannelDetail = () => {
   const { id } = useParams();
 
   useEffect(() => {
+    document.title = "Channel Detail"
     const fetchResults = async () => {
       const data = await fetchFromAPI(`channels?part=snippet&id=${id}`);
 
