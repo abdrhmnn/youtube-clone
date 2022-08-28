@@ -4,8 +4,8 @@ import { Box } from '@mui/material';
 import {
   Navbar,
   Feed,
-  // ChannelDetail,
-  // VideoDetail,
+  VideoDetail,
+  ChannelDetail,
   // SearchFeed,
 } from './components';
 
@@ -15,9 +15,9 @@ const App = () => (
       <Navbar />
       <Routes>
         <Route exact path='/' element={<Feed />} />
-        {/* <Route path='/video/:id' element={<VideoDetail />} />
+        <Route exact path='/video/:id' element={<VideoDetail />} />
         <Route path='/channel/:id' element={<ChannelDetail />} />
-        <Route path='/search/:searchTerm' element={<SearchFeed />} /> */}
+        {/* <Route path='/search/:searchTerm' element={<SearchFeed />} /> */}
       </Routes>
     </Box>
   </BrowserRouter>
