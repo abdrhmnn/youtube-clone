@@ -1,6 +1,7 @@
+// packages
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from '@mui/material';
-
+// components
 import {
   Navbar,
   Feed,

@@ -1,9 +1,11 @@
+// packages
 import { useState, useEffect } from "react";
 import { Typography, Box } from "@mui/material";
 import { useParams } from "react-router-dom";
-
-import { fetchFromAPI } from "../utils/fetchDataAPI";
+// components
 import { Videos } from "./";
+// utility
+import { fetchFromAPI } from "../utils/fetchDataAPI";
 
 const SearchFeed = () => {
   const [videos, setVideos] = useState(null);

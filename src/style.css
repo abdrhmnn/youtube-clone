@@ -62,6 +62,7 @@ a {
   transition: all 0.3s ease;
 }
 
+/* responsive layouts */
 @media screen and (max-width: 900px) {
   .category-btn{
     margin: 10px;

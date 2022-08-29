@@ -1,10 +1,12 @@
+// packages
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-
+// components
 import { Loader } from "./";
+// utility
 import { fetchFromAPI } from "../utils/fetchDataAPI";
 
 const VideoDetail = () => {
@@ -30,7 +32,7 @@ const VideoDetail = () => {
             <Typography color="#fff" variant="h5" fontWeight="bold" p={2}>
               {title}
             </Typography>
-            <Stack direction="row" justifyContent="space-between" sx={{ color: "#fff" }} py={1} px={2} >
+            <Stack direction="row" justifyContent="space-between" sx={{ color: "#fff" }} py={1} px={2}>
               <Link to={`/channel/${channelId}`}>
                 <Typography variant="h6" color="#fff" >
                   {channelTitle}

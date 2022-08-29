@@ -1,6 +1,7 @@
+// packages
 import React from "react";
 import { Stack } from "@mui/material";
-
+// utility
 import { categories } from "../utils/constants";
 
 const Categories = ({ selectedCategory, setSelectedCategory }) => (

@@ -1,6 +1,9 @@
+// packages
 import React from 'react';
 import { Box, CardContent, CardMedia, Typography } from '@mui/material';
+// icon
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+// utility
 import { demoProfilePicture } from '../utils/constants';
 
 const ChannelCard = ({ channelDetail, marginTop }) => (
@@ -17,7 +20,14 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
       marginTop,
     }}
   >
-    <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#fff' }}>
+    <CardContent
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        textAlign: 'center',
+        color: '#fff'
+      }}>
       <CardMedia
         image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
         alt={channelDetail?.snippet?.title}

@@ -1,3 +1,4 @@
+// icons
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
@@ -12,8 +13,10 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
+// constan logo and demo user picture
 export const logo = 'https://i.ibb.co/RPXHmG2/yt-clone-logo.png';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png';
+// sidebar logo
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },

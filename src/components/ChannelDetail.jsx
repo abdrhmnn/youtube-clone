@@ -1,8 +1,10 @@
+// packages
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Box } from "@mui/material";
-
+// components
 import { Videos, ChannelCard } from "./";
+// utility
 import { fetchFromAPI } from "../utils/fetchDataAPI";
 
 const ChannelDetail = () => {

@@ -1,6 +1,7 @@
+// packages
 import React from "react";
 import { Stack, Box } from "@mui/material";
-
+// components
 import { Loader, VideoCard } from "./";
 
 const Videos = ({ videos, direction }) => {
@@ -11,7 +12,6 @@ const Videos = ({ videos, direction }) => {
       {videos.map((item, idx) => (
         <Box key={idx}>
           {item.id.videoId && <VideoCard video={item} /> }
-          {/* {item.snippet.channelId && <ChannelCard channelDetail={item} />} */}
         </Box>
       ))}
     </Stack>
